@@ -11,17 +11,16 @@ created: '2024-12-03'
 modified: '2026-03-16'
 position: Consumer
 tags:
+  - Conservation
   - Federal Government
   - Wildlife
-  - Conservation
 url: >-
   https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
   - aid: fish-and-wildlife-service:fish-and-wildlife-service
     name: Fish and Wildlife Service
-    tags:
-      - API
+    tags: []
     humanURL: https://www.fws.gov
     properties:
       - url: https://www.fws.gov
