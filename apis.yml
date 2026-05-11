@@ -92,6 +92,12 @@ common:
     url: https://ipac.ecosphere.fws.gov/
   - type: ServCat
     url: https://ecos.fws.gov/ServCat/
+  - type: Integrations
+    url: https://www.fws.gov/apps/
+integrations:
+  - name: 'Celebrating America''s 250 Anniversary'
+  - name: Our Services
+  - name: Sea Turtles Program Volunteers
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
