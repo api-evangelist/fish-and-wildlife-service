@@ -82,6 +82,10 @@ apis:
       - url: https://ecos.fws.gov/ServCat/
         type: Portal
 common:
+  - type: GitHubOrganization
+    url: https://github.com/USFWS
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/usfws
   - type: Website
     url: https://www.fws.gov
   - type: Data
