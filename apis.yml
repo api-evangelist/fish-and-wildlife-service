@@ -82,6 +82,8 @@ apis:
       - url: https://ecos.fws.gov/ServCat/
         type: Portal
 common:
+  - type: DomainSecurity
+    url: security/fish-and-wildlife-service-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/USFWS
   - type: LinkedIn
