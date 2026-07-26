@@ -1,7 +1,19 @@
 aid: fish-and-wildlife-service
 name: U.S. Fish and Wildlife Service
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fish-and-wildlife-service.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/apis.yml
 specificationVersion: '0.19'
@@ -22,7 +34,7 @@ description: >-
   and Consultation (IPaC), and the Service Catalog (ServCat) rather than a
   consolidated public API program.
 created: '2024-12-03'
-modified: '2026-04-28'
+modified: '2026-07-25'
 apis:
   - aid: fish-and-wildlife-service:ecos
     name: USFWS Environmental Conservation Online System (ECOS)
@@ -44,27 +56,6 @@ apis:
         type: Portal
       - url: https://ecos.fws.gov/ecp/report
         type: Reports
-  - aid: fish-and-wildlife-service:ipac
-    name: USFWS Information for Planning and Consultation (IPaC)
-    tags:
-      - Endangered Species Act
-      - Environmental Review
-      - Project Planning
-      - Section 7 Consultation
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://ipac.ecosphere.fws.gov/
-    description: >-
-      Information for Planning and Consultation (IPaC) is a USFWS web-based
-      project planning tool that helps users identify potential impacts on
-      protected species and habitats, generate official species lists for
-      Endangered Species Act Section 7 consultations, and build consultation
-      packages. IPaC is delivered as an interactive web application and does
-      not currently publish a public API contract.
-    properties:
-      - url: https://ipac.ecosphere.fws.gov/
-        type: Portal
-      - url: https://ipac.ecosphere.fws.gov/about
-        type: Documentation
   - aid: fish-and-wildlife-service:servcat
     name: USFWS Service Catalog (ServCat)
     tags:

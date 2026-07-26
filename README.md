@@ -34,10 +34,6 @@ The Environmental Conservation Online System (ECOS) is the USFWS portal for thre
 - [Portal](https://ecos.fws.gov/ecp/)
 - [Reports](https://ecos.fws.gov/ecp/report)
 
-### USFWS Information for Planning and Consultation (IPaC)
-Information for Planning and Consultation (IPaC) is a USFWS web-based project planning tool that helps users identify potential impacts on protected species and habitats, generate official species lists for Endangered Species Act Section 7 consultations, and build consultation packages. IPaC is delivered as an interactive web application and does not currently publish a public API contract.
-
-**Human URL:** [https://ipac.ecosphere.fws.gov/](https://ipac.ecosphere.fws.gov/)
 
 #### Tags:
 
