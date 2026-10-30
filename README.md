@@ -1,4 +1,4 @@
-# U.S. Fish and Wildlife Service (fish-and-wildlife-service)
+# U.S. Fish and Wildlife Service
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,72 +66,102 @@
 
 The U.S. Fish and Wildlife Service (USFWS) is the federal agency responsible for conserving, protecting, and enhancing fish, wildlife, plants, and their habitats for the continuing benefit of the American people. USFWS programs cover migratory birds, endangered species, interjurisdictional fish and marine mammals, and inland sport fisheries. Public-facing data is shared primarily through web tools and downloadable datasets such as the Environmental Conservation Online System (ECOS), Information for Planning and Consultation (IPaC), and the Service Catalog (ServCat) rather than a consolidated public API program.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/apis.yml)
+**Areas:** Conservation · Endangered Species · Federal Government · Fisheries · Wildlife
 
-## Scope
+## U.S. Fish and Wildlife Service on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for U.S. Fish and Wildlife Service is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fish-and-wildlife-service/](https://apis.io/providers/fish-and-wildlife-service/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (2)
 
- - Federal Government, Wildlife, Conservation, Endangered Species, Fisheries
+- [USFWS Environmental Conservation Online System (ECOS)](https://apis.io/apis/fish-and-wildlife-service/ecos/) — The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery…
+- [USFWS Service Catalog (ServCat)](https://apis.io/apis/fish-and-wildlife-service/servcat/) — The Service Catalog (ServCat) is the USFWS reference library for reports, datasets, and other documents produced by or for the agency. ServCat is backed by…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-12-03
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### USFWS Environmental Conservation Online System (ECOS)
-The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery plans, and Section 7 consultations. ECOS exposes structured species profiles and downloadable datasets, but does not currently publish a stable, fully documented public API contract.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://ecos.fws.gov/ecp/](https://ecos.fws.gov/ecp/)
+- [Fish And Wildlife Service Domain Security](https://apis.io/security/fish-and-wildlife-service/fish-and-wildlife-service-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Endangered Species, Critical Habitat, Wildlife, Environmental Data
+Published plans, tiers and prices.
 
-#### Properties
+- [Fish And Wildlife Service Plans Pricing](https://apis.io/plans/fish-and-wildlife-service/fish-and-wildlife-service-plans-pricing/)
 
-- [Portal](https://ecos.fws.gov/ecp/)
-- [Reports](https://ecos.fws.gov/ecp/report)
+#### Rate limits (1)
 
+Published request limits.
 
-#### Tags:
+- [Fish And Wildlife Service Rate Limits](https://apis.io/rate-limits/fish-and-wildlife-service/fish-and-wildlife-service-rate-limits/)
 
- - Endangered Species Act, Section 7 Consultation, Project Planning, Environmental Review
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Portal](https://ipac.ecosphere.fws.gov/)
-- [Documentation](https://ipac.ecosphere.fws.gov/about)
+- [Fish And Wildlife Service Finops](https://apis.io/finops/fish-and-wildlife-service/fish-and-wildlife-service-finops/)
 
-### USFWS Service Catalog (ServCat)
-The Service Catalog (ServCat) is the USFWS reference library for reports, datasets, and other documents produced by or for the agency. ServCat is backed by an internal services layer; while the catalog is publicly browseable, a public API contract is not currently published.
+## Where to find this API
 
-**Human URL:** [https://ecos.fws.gov/ServCat/](https://ecos.fws.gov/ServCat/)
-
-#### Tags:
-
- - Reports, Document Repository, Reference Library
-
-#### Properties
-
-- [Portal](https://ecos.fws.gov/ServCat/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.fws.gov)
-- [Data](https://www.fws.gov/library/collections/data)
-- [ECOS](https://ecos.fws.gov/ecp/)
-- [IPaC](https://ipac.ecosphere.fws.gov/)
-- [ServCat](https://ecos.fws.gov/ServCat/)
+- [Blog](https://www.fws.gov/news)
+- [GitHub](https://github.com/USFWS)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fish-and-wildlife-service/](https://apis.io/providers/fish-and-wildlife-service/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for U.S. Fish and Wildlife Service: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fish-and-wildlife-service/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
